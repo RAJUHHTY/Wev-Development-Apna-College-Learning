@@ -1,0 +1,126 @@
+/* Units in CSS */
+/* Percentage (%) */
+
+
+/* #box1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%; 
+    background-color: yellow;
+    margin-left: 10%;
+     font-size: 2em; 2 Times of Parent font-size 
+     width: 5rem;  5 time  root element font size 
+     height: 20vh;
+     width: 10vw;
+
+} */
+
+
+/* Position Property */
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+    display: inline-block;
+    
+    
+} */
+
+/* #Box1 { */
+    /* background-color: green; */
+    /* position: static; */ 
+    /* top: 500px; */
+    /* bottom: 50px; */
+    /* right: 50px; */
+    /* left: 50px; */
+ /* }  */
+ /* #Box2 { */
+    /* background-color: yellow; */ 
+    /* position: relative; */
+    /* top: 50px; */
+    /* bottom: 50px; */
+    /* right: 50px; */
+    /* left: 50px; */
+    /* z-index: -2; */
+/* } */
+ /* #Box3 { */
+    /* background-color: blue; */
+    /* color: white; */
+    /* position: sticky; */ 
+    /* top: 100px; */
+    /* bottom: 50px; */
+    /* right: 50px; */
+    /* left: 50px; */
+/* } */
+/* #Box4 { */
+    /* background-color: red; */
+    /* position: fixed; */ 
+    /* top: 100px; */
+    /* bottom: 50px; */
+    /* right: 50px; */
+    /* left: 200px; */
+    /* width: 100%; */
+    /* z-index: 1; */
+    /* z-index: -1; */
+/* } */
+
+
+body{
+    background-image: url(fox3.webp);
+    background-size: cover;
+    color: white;
+}
+
+
+
+/* #Box1 { */
+    /* background-image: url(fox1.avif); */
+    /* height: 500px; */
+    /* width: 500px; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: auto; */
+/* } */
+
+/* #Box2 {
+    background-image: url(fox2.avif);
+    background-size: cover;
+
+} */
+
+/* #Box3 {
+    background-image: url(fox3.webp);
+    background-size: cover;
+} */
+
+/* #Box4 {
+    background-image: url(fox4.avif);
+    background-size: cover;
+} */
+
+
+
+/* Practice Set 5 */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-image: url(fox3.webp);
+    background-size: cover;
+    color: white;
+    position: fixed;
+    right: 0px;
+}
+
+
+
+
+
