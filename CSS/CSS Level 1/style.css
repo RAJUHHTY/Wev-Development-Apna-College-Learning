@@ -1,0 +1,217 @@
+
+
+h1 {
+    color: red;/
+}
+
+p {
+    color: blue;
+}
+
+button {
+    color: rgb(235, 12, 124);
+    background-color: orange;
+}
+
+body {
+    /* background-color: aqua; */
+
+       /* background-color: rgb(255, 0, 255); */
+       /* background-color: rgb(255, 255, 0); */
+       background-color: rgb(0, 255, 255);
+}
+
+pre {
+    /* color: #ff0000; */
+    /* color: #00ff00; */
+    /* color: #0000ff; */
+    color: #050505;
+}
+
+
+/* Selectors in CSS */
+
+/* Universal Selector */
+* {
+    text-align: center;
+}
+
+/* Element Selector */
+b {
+    color: #050505;
+}
+
+/* Id Selector */
+#reset {
+    background-color: yellow;
+    color: #f00e8e;
+}
+/* Class Selector */
+.submit {
+    background-color: #050505;
+    color: yellow;
+}
+
+
+/* Group Selector */
+hr, .h5, #h6, i {
+    color: brown;
+    background-color: #fff;
+}
+
+
+/* Descendant Selector */
+.paragraph p {
+    color: rgb(250, 86, 4);
+    background-color: blue;
+}
+#bolt pre {
+    background-color: red;
+    color: white;
+}
+
+
+/* Text Properties */
+ /* text-align */
+ 
+ .left {
+    text-align: left;
+ }
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.start {
+    text-align: start;
+}
+
+.end {
+    text-align: end;
+}
+
+
+
+.underline {
+    text-decoration: blue wavy underline;
+}
+.overline {
+    text-decoration: overline;
+}
+.line-through {
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* font-weight */
+.normal {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.f100  {
+    font-weight: 100;
+}
+
+.f900 {
+    font-weight: 900;
+}
+
+
+.fontfamilyarial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fontfamilyroboto{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Units in CSS */
+#p1 {
+    font-size: 10px;
+}
+
+#p2 {
+    font-size: 20px;
+}
+
+#p3 {
+    font-size: 30px;
+}
+
+/* line-height */
+.lh2 {
+    line-height: 2px;
+}
+
+.lh3 {
+    line-height: 3;
+}
+
+.lhn {
+    line-height: normal;
+}
+
+/* text-transform*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.none {
+    text-transform: none;
+}
+
+
+#hcapitalized {
+    text-transform: capitalize;
+}
+
+
+/* *{
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+
+ /* Q3: Create one div inside another div. 
+Set id & text "outer" for the first one & "inner" for the second one.
+ Set the outer div text size to 25px & inner div text size to 10px. */
+
+ #outer {
+    font-size: 25px;
+ }
+
+ #inner {
+    font-size: 10px;
+ }
+
+
+
+ 
