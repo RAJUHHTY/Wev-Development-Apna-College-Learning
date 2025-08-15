@@ -1,0 +1,380 @@
+HTML  - Structure/layou  Hyper Text Markup Language
+CSS - Style    Cascading Style Sheet
+JavaScript - Logic 
+
+## Level 1
+HTML
+Hyper Text Markup Language
+ HTML is the code that is used to
+ structure a web page and its content.
+
+ The component used to design the
+ structure of websites are called HTML tags.
+
+First HTML File
+ index.html
+ It is the default name for a website's homepag.
+
+ HTML Tag
+ A container for some content or other HTML tags
+ <p> This is a paragraph </p>
+            Content
+   Tag + Content = Elemen
+
+
+
+Basic HTML Page
+ <!DOCTYPE html>     tells browser you are using HTML5
+ <html>              root of an html document
+ <head>              container for metadata 
+ <title>My First Page</title>    page title
+ </head>
+ <body>              contains all data rendered by the browser
+ <p>hello world</p>  paragraph tag
+ </body>
+ </html
+
+
+Quick Points
+ Html tag is parent of head & body tag
+ Most of html elements have opening & closing tags
+ with content in between
+ Some tags have no content in between, eg - <br>
+ We can use inspect element/view page source to edit html 
+
+Comments in HTML
+ This is part of code that should not be parsed.
+ <!-- This is an HTML Comment -->
+
+HTML is NOT case sensitive
+ <html> = <HTML>
+ <p> = <P>
+ <head> = <HEAD>
+ <body> = <BODY
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+HTML Apna College Time 36:36
+
+Level 2
+
+Basic HTML Tags
+ HTML Attributes
+ Attributes are used to add more information to the tag
+ <html lang="en"
+
+
+Heading Tag
+ Used to display headings in HTML
+ h1 (most important)
+ h2
+ h3
+ h4
+ h5  (least important)
+
+
+Paragraph Tag
+ Used to add paragraphs in HTML
+ <p> This is a sample paragraph </p>
+
+
+Anchor Tag
+ Used to add links to your page
+ <a href="https://google.com"> Google </a>
+ <!-- Absolute Link (Absolute URL) -->
+  <a href="https://code.visualstudio.com/   download">Download Visual Studio Code</a>
+ <!-- Relative Link  (Relative URL)-->
+  <a href="http://127.0.0.1:5500/HTML/Level1.html">Level 1 HTML</a>
+
+
+Image Tag
+ Used to add images to your page
+ <img src="/image.png" alt="Random Image"> 
+               ↑
+         relative URL
+
+Br Tag
+ Used to add next line(line breaks) to your page
+ <br>
+
+
+Bold, Italic & Underline Tags
+ Used to highlight text in your page
+ <b> Bold </b> 
+<i> Italic </i> 
+<u> Underline </u>
+
+Big & Small Tags
+ Used to display big & small text on your page
+ <big> Big </big> 
+<small> Small </small>
+
+Hr Tag
+ Used to display a horizontal ruler, used to separate content
+ <hr>
+
+Subscript & Superscript Tag
+ Used to display a horizontal ruler, used to separate content
+ <sub> subscript </sub> 
+       H2O 
+ <sup> superscript </sup> 
+     (A + B)2
+
+Pre Tag
+ Used to display text as it is (without ignoring spaces & next line)
+ <pre> This
+ is a sample
+ text.      
+</pre>
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+HTML Apna College Time 1:03:26
+
+Level 3
+
+Page Layout Techniques
+ using Semantic tags for layout 
+using the Right Tags
+ <header>
+ <main>
+ <footer>
+
+Inside Main Tag
+ Section Tag   For a section on your page 
+ <section>
+ Article Tag   For an article on your page 
+ <article>
+ Aside Tag     For content aside main content(ads)
+ <aside>
+
+
+Revisiting Anchor Tag
+ <a href="https://google.com" target="_main"> Google </a> 
+                                    ↑
+                              for new tab
+
+ <a href="https://google.com"> <img src="link"> </a> 
+                                      ↑
+                                clickable pic
+
+
+Revisiting Image Tag
+ <img src="link" height=50px >
+                        ↑
+                 set height
+
+ <img src="link" width=50px >
+                        ↑
+                   set width
+
+
+Div Tag (This is Non Sementic Tag)
+ Div is a container used for other HTML elements
+ Block Element (takes full width)
+<div></div>
+
+
+List : Block Elements List : Div Tags
+ <address>
+ <article>
+ <aside>
+ <blockquote>
+ <canvas>
+ <dd>
+ <div>
+ <dl>
+ <fieldset>
+ <figcaption>
+ <figure>
+ <footer>
+ <form>
+ <nav>
+ <noscript>
+ <ol>
+ <p>
+ <pre>
+ <h1>-<h6>
+ <header>
+ <hr>
+ <li>
+ <section>
+ <table>
+ <tfoot>
+ <ul>
+ <dt>
+ <main>
+ <video
+
+
+
+Span Tag
+ Span is also a container used for other HTML elements
+ Inline Element (takes width as per size)
+
+
+List : Inline Elements    List : Span Tags
+ <a>
+ <abbr>
+ <acronym>
+ <b>
+ <bdo>
+ <big>
+ <br>
+ <button>
+ <cite>
+ <code>
+ <dfn>
+ <em>
+ <i>
+ <img>
+ <input>
+ <kbd>
+ <label>
+ <map>
+ <object>
+ <tt>
+ <var>
+ <output>
+ <q>
+ <samp>
+ <script>
+ <select>
+ <small>
+ <span>
+ <strong>
+ <sub>
+ <sup>
+ <textarea>
+ <time>
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+HTML Apna College Time 1:25:11
+
+Level Pro 
+
+List in HTML
+ Lists are used to represent real life list data.
+ unordered
+ <ul>
+  <li> Apple </li>
+  <li> Mango </li>
+ </ul>
+
+ ordered
+ <ol>
+  <li> Apple </li>
+  <li> Mango </li>
+ </ol>
+
+
+Tables in HTML
+ Tables are used to represent real life table data.
+ <tr>   used to display table row
+ <td>   used to display table data
+ <th>   used to display table header
+
+
+Caption in Tables
+ It is Heading Of Table 
+ <caption> Student Data </caption> 
+
+
+thead & tbody in Tables
+ <thead> to wrap table head 
+ <tbody> to wrap table body  
+
+Colspan attribute
+ colspan="n" 
+ used to create cells which spans over multiple columns
+ 
+Rowspan attribute
+ rowspan="n" 
+ used to create cells which spans over multiple rows 
+ 
+Boder in Table 
+ border="2"
+
+
+
+
+Form in HTML
+ Forms are used to collect data from the user
+ Eg- sign up/login/help requests/contact me
+ <form> 
+ form content 
+ </form>
+
+Action in Form
+ Action attribute is used to define what action needs to be
+ performed when a form is submitted
+ <form action="/action.php">
+
+Form Element : Input
+ <input type="text" placeholder="Enter Name">
+
+
+Label
+ <label for="id1"> 
+<input type="radio" value="class X" name="class"  id="id1">
+ </label> 
+<label for="id2"> 
+</label> 
+<input type="radio" value="class X" name="class"  id="id2">
+
+
+Class & Id
+ <div id="id1" class="group1"> 
+
+ </div> 
+
+ <div id="id2"> class="group1">
+
+ </div>
+
+
+Checkbox
+ <label for="id1"> 
+<input type="checkbox" value="class X" name="class"  id="id1">
+ </label> 
+<label for="id2"> 
+<input type="checkbox" value="class X" name="class"  id="id2"
+</label> 
+
+
+Textarea
+ <textarea name="feedback" id="feedback" placeholder="Please add Feedback">
+ </textarea>
+
+
+Select
+ <select name="city" id="city"> 
+     <option value="Delhi">  Delhi </option>
+     <option value="Mumbai">  Mumbai </option>
+     <option value="Banglore">  Banglore </option>
+ </select>
+
+
+iframe Tag
+ website inside website
+ <iframe src="link">  Link </option>
+
+
+Video Tag
+ <video src="myVid.mp4">  My Video </video>
+ Attributes
+ - controls
+ - height
+ - width
+ - loop
+ - autoplay
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
